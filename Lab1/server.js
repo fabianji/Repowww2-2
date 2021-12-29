@@ -16,7 +16,8 @@ const schema = buildSchema(`
         descripcion: String!
         valor: Int
         stock: Int
-        foto: String 
+        foto: String
+        carro: Int 
     }
 
     type Detalle{
